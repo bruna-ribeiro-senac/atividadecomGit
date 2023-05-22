@@ -1,0 +1,28 @@
+.metricas{
+    display: flex;
+    align-items: center;
+    
+    gap: 2rem;
+    padding-bottom: 96px;
+    margin: 0 2rem;
+}
+.metricas__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.metricas__box h1{
+    
+    font-size: 48px;
+    color: var(--vinho-principal);
+}
+.metricas__texto-destaque{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--cinza-principal);
+}
+.metricas__texto{
+    font-size: 16px;
+    color: var(--cinza-texto);
+}

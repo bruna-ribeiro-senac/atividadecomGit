@@ -1,0 +1,41 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    padding-bottom: 96px;
+   
+}
+
+.vagas__box{
+    
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    
+}
+.vagas__titulo{
+    font-size: 20px;
+    font-weight: 500;
+}
+.vagas__titulo--secundario{
+    font-size: 18px;
+    font-weight: 500;
+}
+.descricao{
+    display: flex;
+    gap: 10px;
+}
+.vagas__box--borda{
+    border: 0.5px solid var(--cinza-texto);
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.vagas__descricao{
+    color: var(--cinza-texto);
+    padding: 20px;
+}

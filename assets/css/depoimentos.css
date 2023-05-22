@@ -1,0 +1,15 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 64px;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+}

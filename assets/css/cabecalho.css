@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+.nav__menu{
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cinza-principal);
+}
+.nav__menu--botao{
+    background-color: var(--vinho-principal);
+    color: white;
+    border-radius: 10px;
+}
